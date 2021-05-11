@@ -4,10 +4,12 @@ import ListPage from './ListPage';
 
 describe('List page', () => {
 
-	it('renders the list page', () => {
+	it('renders the list page', async () => {
 		render(<ListPage />);
-		screen.getByText('Villagers');
-		screen.getByRole('list');
+
+		const ul = await screen.findByRole('list', { name: 'villagers' });
+
+		expect(ul).toBeInTheDocument();
 	});
 
 })
