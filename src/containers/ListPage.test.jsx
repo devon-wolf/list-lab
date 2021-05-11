@@ -6,7 +6,8 @@ describe('List page', () => {
 
 	it('renders the list page', () => {
 		render(<ListPage />);
-		screen.getByText('CHECK IT OUT');
+		screen.getByText('Villagers');
+		screen.getByRole('list');
 	});
 
 })
