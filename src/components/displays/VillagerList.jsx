@@ -11,7 +11,7 @@ const VillagerList = ({ villagers }) => (
 					className={style.villagerLi}
 					key={villager.id}
 				>
-					<Link to={`/${villager.name.toLowerCase()}`}>
+					<Link to={`/${villager.id}`}>
 						<Villager 
 							name={villager.name}
 							image={villager.image}
