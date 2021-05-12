@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import style from './Villager.css';
 
 const Villager = ({ name, image, phrase }) => (
 		<>
 		<h3>{name}</h3>
-		<img alt={name} src={image} />
+		<img className={style.villagerImg} alt={name} src={image} />
 		<p>{phrase}</p>	
 		</>
 	);

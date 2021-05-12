@@ -1,0 +1,21 @@
+.villagerUl {
+	list-style: none;
+	padding-left: unset;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+	background-color: papayawhip;
+}
+
+.villagerLi {
+	background-color: paleturquoise;
+	margin: 1rem;
+	padding: 1rem;
+	width: 12vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
