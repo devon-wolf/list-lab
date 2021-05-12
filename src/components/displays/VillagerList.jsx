@@ -7,15 +7,18 @@ import { Link } from 'react-router-dom';
 const VillagerList = ({ villagers }) => (
 		<ul className={style.villagerUl} aria-label="villagers">
 			{villagers.map(villager => (
-				<Link key={villager.id} to={`/${villager.name.toLowerCase()}`}>
-					<li className={style.villagerLi}>
+				<li
+					className={style.villagerLi}
+					key={villager.id}
+				>
+					<Link to={`/${villager.name.toLowerCase()}`}>
 						<Villager 
 							name={villager.name}
 							image={villager.image}
 							phrase={villager.phrase}
 						/>
-					</li>
-				</Link>
+					</Link>
+				</li>
 			))}
 		</ul>
 	);

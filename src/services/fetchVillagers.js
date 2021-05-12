@@ -9,3 +9,7 @@ export const fetchVillagers = async () => {
 		phrase: villager.phrase
 	}));
 }
+
+// export const fetchVillagerByName = async () => {
+
+// };
