@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail page renders the detail page 1`] = `
+<div
+  role="villager-detail"
+>
+  <h3>
+    Anicotti
+  </h3>
+  <img
+    alt="Anicotti"
+    class="villagerImg"
+    src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/Anicotti_NH.png/revision/latest?cb=20200802164003"
+  />
+  <p>
+    cannoli
+  </p>
+</div>
+`;
